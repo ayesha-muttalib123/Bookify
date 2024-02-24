@@ -30,7 +30,7 @@
 import { Navigate, Outlet, useLocation } from "react-router-dom";
 
 import Navbar from "../../components/Navbar";
-import Footer from "../../components/MyFooter";
+// import Footer from "../../components/MyFooter";
 
 const PublicMiddleware = ({ isLoggedIn }) => {
   const location = useLocation();
@@ -46,8 +46,6 @@ const PublicMiddleware = ({ isLoggedIn }) => {
       <main>
         <Outlet />
       </main>
-
-      <Footer />
     </>
   );
 };
