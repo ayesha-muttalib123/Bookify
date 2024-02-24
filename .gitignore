@@ -1,0 +1,6 @@
+# these files are we not want to 
+
+client/node_modules
+client/.env
+node_modules
+.env
